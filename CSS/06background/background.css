@@ -1,0 +1,64 @@
+div {
+    height: 300px;
+}
+.background-color{
+    background-color:red; height: 200px; 
+}
+.background-image{
+    background-image:url(download.jpg)  ; 
+    color: aliceblue;
+   
+}
+.background-repeat{
+    background-image: url(download.jpg);
+    color: pink;
+    background-repeat:no-repeat;
+    /* background-repeat:repeat-x; */
+    /* background-repeat:repeat-y; */
+}
+.background-attachment{
+    background-image: url(download.jpg);
+    color: yellow;
+    background-attachment:fixed;
+    height: 500px;
+}
+.background-clip{
+    background-image: url(download.jpg);
+    color: orange;
+
+    border: 15px dashed palevioletred;
+    /* background-clip: content-box; */
+    /* background-clip: padding-box; */
+    background-clip: border-box;
+
+}
+.background-origin{
+    background-image: url(download.jpg);
+    color: orange;
+    border: 15px dashed gray ;
+    /* background-origin:border-box; */
+    background-origin: content-box;
+}
+.background-position{
+    background-image: url(download.jpg);
+    color: orange;
+    border: 15px dashed gray ;
+    /* background-position: top; */
+    /* background-position: left; */
+    /* background-position: center; */
+    background-position: 25% 75%;
+   background-repeat: no-repeat;
+}
+.background-size{
+    background-image: url(download.jpg);
+    color: cyan;
+    border: 15px dashed pink;
+    background-size: contain;
+    /* background-size: contain; */
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+    /* background-size: 30%; */
+    /* background-size: 200px 100px; */
+
+
+}
